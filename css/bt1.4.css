@@ -1,0 +1,8 @@
+#btn2 {
+    color: #fff;
+    background-color: rgb(34, 34, 34);
+    border: 0.5px solid #fff;
+    border-radius: 2px;
+    padding: 0.125rem 0.4rem;
+    display: none;
+}

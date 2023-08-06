@@ -1,0 +1,39 @@
+#box {
+    background-color: rgb(255, 255, 255);
+    width: 30rem;
+    height: 10rem;
+    position: absolute;
+    display: none;
+    top: 30%;
+    left: 30%;
+    z-index: 9;
+}
+
+#box>p {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 9;
+}
+
+#box>button {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    z-index: 9;
+}
+
+body {
+    position: relative;
+    height: 40rem;
+}
+
+#color {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.336);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: none;
+}

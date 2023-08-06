@@ -1,0 +1,40 @@
+#box>div>div {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 2rem;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+
+}
+
+#box>div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#red {
+    background-color: rgb(255, 216, 216);
+}
+
+#blue {
+    background-color: rgb(192, 192, 255);
+}
+
+#yellow {
+    background-color: rgb(250, 255, 206);
+}
+
+body {
+    height: 43rem;
+    position: relative;
+}
